@@ -63,7 +63,7 @@ if [ -n "$OBSIDIAN_CAREER_DIR" ] && [ -d "$OBSIDIAN_CAREER_DIR" ]; then
 ## New Matches Found
 
 $(if [ "$NEW_JOBS" -gt 0 ]; then
-    tail -n "$NEW_JOBS" data/pipeline.md | sed 's/^- http/- [ ] http/'
+    git diff data/pipeline.md | grep -E "^\+- " | sed 's/^+//'
 else
     echo "*No new matches today.*"
 fi)
