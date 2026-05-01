@@ -850,6 +850,10 @@
 - [ ] http://www.hioscar.com/careers/7768973?gh_jid=7768973 | Oscar Health | Salesforce Platform Solutions Architect
 - [ ] http://www.hioscar.com/careers/7586625?gh_jid=7586625 | Oscar Health | Staff Product Manager, AI
 
+- [ ] https://job-boards.greenhouse.io/contentful/jobs/7727886 | Contentful | Senior Product Manager (f/m/d)
+- [ ] http://www.hioscar.com/careers/7768964?gh_jid=7768964 | Oscar Health | Salesforce Platform Solutions Architect
+- [ ] http://www.hioscar.com/careers/7586621?gh_jid=7586621 | Oscar Health | Staff Product Manager, AI
+
 ## Procesadas
 
 <!-- Evaluated offers move here -->

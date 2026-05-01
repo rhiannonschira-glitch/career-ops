@@ -31,7 +31,7 @@ echo "[1/5] Pulling latest from git..."
 git pull origin main --rebase || true
 
 # Count existing pipeline entries before scan
-BEFORE_COUNT=$(grep -c "^- http" data/pipeline.md 2>/dev/null || true)
+BEFORE_COUNT=$(grep -cE "^- (\[ \] )?http" data/pipeline.md 2>/dev/null || true)
 BEFORE_COUNT=${BEFORE_COUNT:-0}
 
 # Run the scan
@@ -39,7 +39,7 @@ echo "[2/5] Running job scan..."
 node scan.mjs 2>&1
 
 # Count after scan
-AFTER_COUNT=$(grep -c "^- http" data/pipeline.md 2>/dev/null || true)
+AFTER_COUNT=$(grep -cE "^- (\[ \] )?http" data/pipeline.md 2>/dev/null || true)
 AFTER_COUNT=${AFTER_COUNT:-0}
 NEW_JOBS=$((AFTER_COUNT - BEFORE_COUNT))
 
@@ -63,7 +63,7 @@ if [ -n "$OBSIDIAN_CAREER_DIR" ] && [ -d "$OBSIDIAN_CAREER_DIR" ]; then
 ## New Matches Found
 
 $(if [ "$NEW_JOBS" -gt 0 ]; then
-    echo "$(tail -n "$NEW_JOBS" data/pipeline.md | sed 's/^- /- [ ] /')"
+    tail -n "$NEW_JOBS" data/pipeline.md | sed 's/^- http/- [ ] http/'
 else
     echo "*No new matches today.*"
 fi)
