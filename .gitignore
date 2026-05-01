@@ -15,6 +15,10 @@
 output/*
 !output/.gitkeep
 
+# Hermes logs
+logs/*
+!logs/.gitkeep
+
 # Batch working files
 batch/logs/*
 !batch/logs/.gitkeep
