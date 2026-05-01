@@ -31,14 +31,16 @@ echo "[1/5] Pulling latest from git..."
 git pull origin main --rebase || true
 
 # Count existing pipeline entries before scan
-BEFORE_COUNT=$(grep -c "^- http" data/pipeline.md 2>/dev/null || echo "0")
+BEFORE_COUNT=$(grep -c "^- http" data/pipeline.md 2>/dev/null || true)
+BEFORE_COUNT=${BEFORE_COUNT:-0}
 
 # Run the scan
 echo "[2/5] Running job scan..."
 node scan.mjs 2>&1
 
 # Count after scan
-AFTER_COUNT=$(grep -c "^- http" data/pipeline.md 2>/dev/null || echo "0")
+AFTER_COUNT=$(grep -c "^- http" data/pipeline.md 2>/dev/null || true)
+AFTER_COUNT=${AFTER_COUNT:-0}
 NEW_JOBS=$((AFTER_COUNT - BEFORE_COUNT))
 
 echo "[3/5] Scan complete. Found $NEW_JOBS new job(s)."

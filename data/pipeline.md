@@ -846,6 +846,10 @@
 - [ ] https://job-boards.greenhouse.io/garnerhealth/jobs/5832687004 | Garner Health | Product Manager II
 - [ ] https://job-boards.greenhouse.io/garnerhealth/jobs/5832705004 | Garner Health | Senior Product Manager
 
+- [ ] https://job-boards.greenhouse.io/contentful/jobs/7727884 | Contentful | Senior Product Manager (f/m/d)
+- [ ] http://www.hioscar.com/careers/7768973?gh_jid=7768973 | Oscar Health | Salesforce Platform Solutions Architect
+- [ ] http://www.hioscar.com/careers/7586625?gh_jid=7586625 | Oscar Health | Staff Product Manager, AI
+
 ## Procesadas
 
 <!-- Evaluated offers move here -->
