@@ -833,6 +833,19 @@
 - [ ] https://jobs.ashbyhq.com/sierra/569ba29b-de35-4bce-a16c-e27cb9b683ea | Sierra | GTM Operations Analyst, Agent Development
 - [ ] https://jobs.ashbyhq.com/lovable/642dfe37-d5f5-4cf7-a38d-d6dac3dde58f | Lovable | Solutions Architect
 
+- [ ] https://job-boards.greenhouse.io/intercom/jobs/7464291 | Intercom | Staff AI Product Manager
+- [ ] https://job-boards.greenhouse.io/gleanwork/jobs/4659409005 | Glean | Forward Deployed Product Manager
+- [ ] https://jobs.ashbyhq.com/decagon/ee6c3e3f-b6ce-4945-a367-172d2b62ccf8 | Decagon | Senior Agent Product Manager
+- [ ] https://jobs.ashbyhq.com/sierra/dc443fd1-14bd-493c-9397-c3713c78321c | Sierra | Product Manager, Agent Development
+- [ ] https://jobs.ashbyhq.com/sierra/1e052261-0c89-4ccb-abfa-3820a1596a6e | Sierra | Product Manager, Infrastructure
+- [ ] https://job-boards.greenhouse.io/celonis/jobs/7661631003?gh_jid=7661631003 | Celonis | Senior Applied AI Solutions Architect - Process Intelligence
+- [ ] https://job-boards.greenhouse.io/contentful/jobs/7636216 | Contentful | Senior Product Manager (f/m/d)
+- [ ] http://www.hioscar.com/careers/7808208?gh_jid=7808208 | Oscar Health | Product Manager, Authorization Services
+- [ ] http://www.hioscar.com/careers/7768976?gh_jid=7768976 | Oscar Health | Salesforce Platform Solutions Architect
+- [ ] http://www.hioscar.com/careers/7578419?gh_jid=7578419 | Oscar Health | Staff Product Manager, AI
+- [ ] https://job-boards.greenhouse.io/garnerhealth/jobs/5832687004 | Garner Health | Product Manager II
+- [ ] https://job-boards.greenhouse.io/garnerhealth/jobs/5832705004 | Garner Health | Senior Product Manager
+
 ## Procesadas
 
 <!-- Evaluated offers move here -->
