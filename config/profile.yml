@@ -1,0 +1,84 @@
+# Career-Ops Profile Configuration
+# This is the single source of truth for your personal data across all modes.
+
+candidate:
+  full_name: "Rhiannon Schira, RN"
+  email: "rhiannonschira@gmail.com"
+  phone: "405-635-7636"
+  location: "Oklahoma City, OK"
+  linkedin: "linkedin.com/in/rhiannonschira"
+  portfolio_url: ""
+  github: ""
+  twitter: ""
+
+target_roles:
+  # Your North Star roles — what you're optimizing for
+  primary:
+    - "Clinical Informatics Specialist"
+    - "Healthcare AI Product Manager"
+    - "Health Tech Solutions Architect"
+  # Archetypes help the evaluation system score fit
+  archetypes:
+    - name: "Clinical Informatics"
+      level: "Senior"
+      fit: "primary"
+    - name: "Healthcare AI/ML"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Health Tech Product Manager"
+      level: "Senior"
+      fit: "secondary"
+    - name: "Healthcare Solutions Architect"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "Nursing Informatics"
+      level: "Senior"
+      fit: "primary"
+
+narrative:
+  # Your professional headline (1 line)
+  headline: "RN + AI builder bridging clinical workflow and technology"
+  # Your exit story — what makes you unique
+  exit_story: "16 years at bedside taught me where healthcare breaks. Now I build the tools to fix it."
+  # Your top 3-5 superpowers
+  superpowers:
+    - "Deep clinical workflow knowledge (16+ years perioperative/pre-anesthesia)"
+    - "AI system design (multi-agent orchestration, RAG, MCP)"
+    - "Full-stack development (Next.js, React Native, Flutter)"
+    - "Epic EHR super user + Cogito analytics"
+    - "Translating between clinical needs and technical solutions"
+  # Proof points — projects, articles, case studies with measurable impact
+  proof_points:
+    - name: "NurseBase"
+      url: ""
+      hero_metric: "On-prem RAG knowledge assistant for bedside nurses"
+    - name: "CareHandoff"
+      url: ""
+      hero_metric: "Full-stack caregiver coordination platform (web + mobile)"
+    - name: "Hospital Indoor Wayfinding"
+      url: ""
+      hero_metric: "Flutter app with BLE beacons, sensor fusion, A* pathfinding"
+    - name: "17-Agent Orchestration System"
+      url: ""
+      hero_metric: "Multi-agent Claude build with 5-tier context architecture"
+    - name: "Pre-Anesthesia Operations Manual"
+      url: ""
+      hero_metric: "Unit-wide adoption at OU Health"
+    - name: "SchiraWorks AI Training"
+      url: ""
+      hero_metric: "6-day agentic AI course for healthcare managers"
+
+compensation:
+  target_range: "$100K-140K"
+  currency: "USD"
+  minimum: "$100K"              # Walk-away number
+  location_flexibility: "Remote preferred, hybrid possible in OKC area"
+
+location:
+  country: "United States"
+  city: "Oklahoma City"
+  timezone: "CST"
+  visa_status: "No sponsorship needed"
+
+cv:
+  output_format: "html"

@@ -1,29 +1,35 @@
-# Personal data (user fills these)
-cv.md
-data/applications.md
-data/pipeline.md
-data/scan-history.tsv
-reports/*.md
+# Personal data — NOW TRACKED (this is your private fork)
+# cv.md — TRACKED
+# config/profile.yml — TRACKED
+# modes/_profile.md — TRACKED
+# portals.yml — TRACKED
+# data/applications.md — TRACKED
+# data/pipeline.md — TRACKED
+# data/scan-history.tsv — TRACKED
+
+# Reports — tracked so Hermes can sync them
+# reports/*.md — TRACKED
 !reports/.gitkeep
+
+# Output PDFs — generated, don't track
 output/*
 !output/.gitkeep
+
+# Batch working files
 batch/logs/*
 !batch/logs/.gitkeep
 batch/batch-state.tsv
 batch/batch-input.tsv
 batch/tracker-additions/**/*.tsv
 !batch/tracker-additions/.gitkeep
+
+# JDs — optional, can track if you want
 jds/*
 !jds/.gitkeep
 
-# Writing samples (user's personal files — never committed)
+# Writing samples (user's personal files)
 writing-samples/*
 !writing-samples/README.md
-
-# User config and customization (never auto-updated)
-config/profile.yml
-portals.yml
-modes/_profile.md
 .update-dismissed
 .update-lock
 

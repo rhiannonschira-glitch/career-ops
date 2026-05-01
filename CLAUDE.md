@@ -22,6 +22,26 @@ There are two layers. Read `DATA_CONTRACT.md` for the full list.
 
 **THE RULE: When the user asks to customize anything (archetypes, narrative, negotiation scripts, proof points, location policy, comp targets), ALWAYS write to `modes/_profile.md` or `config/profile.yml`. NEVER edit `modes/_shared.md` for user-specific content.** This ensures system updates don't overwrite their customizations.
 
+## Obsidian Sync (MANDATORY)
+
+**The user has a career dashboard in Obsidian at `~/Documents/second-brain/04_Areas/Career/`.**
+
+**EVERY TIME you update career-ops files, you MUST also update the corresponding Obsidian files:**
+
+| When you update... | Also update in Obsidian... |
+|--------------------|---------------------------|
+| `cv.md` | `Profile/My CV.md` |
+| `modes/_profile.md` or `config/profile.yml` | `Profile/My Profile.md` |
+| Skills or strengths | `Profile/My Skills.md` |
+| `data/applications.md` | `Job Search/Applications.md` |
+| `data/pipeline.md` | `Job Search/Pipeline.md` |
+| Run a scan | `Job Search/Daily Scans/YYYY-MM-DD.md` |
+| Evaluate a job (80+ score) | Create file in `Job Search/Matches/{Company}-{Role}.md` |
+| `portals.yml` companies | `Resources/Target Companies.md` |
+| Interview prep materials | `Interview Prep/Story Bank.md` or company-specific file |
+
+**DO NOT SKIP THIS.** The user relies on Obsidian as their readable dashboard. If you update career-ops but not Obsidian, the systems drift apart.
+
 ## Update Check
 
 On the first message of each session, run the update checker silently:
