@@ -7,7 +7,7 @@ set -e
 
 # Config
 CAREER_OPS_DIR="${CAREER_OPS_DIR:-$HOME/career-ops}"
-OBSIDIAN_CAREER_DIR="${OBSIDIAN_CAREER_DIR:-}"  # Optional: direct path to Obsidian Career folder if using Syncthing
+OBSIDIAN_CAREER_DIR="${OBSIDIAN_CAREER_DIR:-$HOME/shared-brain/04_Areas/Career}"  # Default for Rhiannon's NUC; override with env var for other setups
 LOG_FILE="$CAREER_OPS_DIR/logs/hermes-scan.log"
 DATE=$(date +%Y-%m-%d)
 TIME=$(date +%H:%M:%S)
